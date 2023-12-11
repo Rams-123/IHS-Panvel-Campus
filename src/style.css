@@ -100,9 +100,52 @@
   }
 }
 
+.program:hover a svg{
+  rotate: 180deg;
+}
 .program:hover .program-list {
   display: flex;
   background: white;
+}
+.program:hover .program-list li:hover a svg{
+  rotate: 0deg;
+}
+
+.program:hover .program-list li:hover .program-list-items {
+  display: flex;
+  background: white;
+}
+.program:hover .program-list li:hover .program-list-items li:hover a svg{
+  rotate: 180deg;
+
+}
+.program:hover .program-list li:hover .program-list-items li:hover .program-list-items-value {
+  display: flex;
+  background: white;
+}
+.mobile-program-details summary span svg{
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-in-out;
+}
+.mobile-program-details[open] summary span svg{
+  transform: rotate(180deg);
+  transition: transform 0.3s ease-in-out;
+}
+.mobile-program-details[open] div ul li .mobile-occupation-details summary span svg{
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-in-out;
+}
+.mobile-program-details[open] div ul li .mobile-occupation-details[open] summary span svg{
+  transform: rotate(180deg);
+  transition: transform 0.3s ease-in-out;
+}
+.mobile-program-details[open] div ul li .mobile-occupation-details div ul li .mobile-specilazation-details summary span svg{
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-in-out;
+}
+.mobile-program-details[open] div ul li .mobile-occupation-details[open] div ul li .mobile-specilazation-details[open] summary span svg{
+  transform: rotate(180deg);
+  transition: transform 0.3s ease-in-out;
 }
 
 .details summary span {
@@ -116,3 +159,4 @@
 .details[open] summary span {
   transform: rotate(180deg);
 }
+

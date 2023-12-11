@@ -69,15 +69,16 @@ module.exports = {
       },
       fontFamily: {},
       backgroundImage: {
-        "hero-banner": "url('assets/banner-img/hero-banner.webp')",
-        "hero-banner-o": "url('assets/banner-img/hero-banner-optometry.webp')",
-        "hero-banner-mlt": "url('assets/banner-img/hero-banner-mlt.webp')",
-        "hero-banner-nur": "url('assets/banner-img/hero-banner-nursing.webp')",
+        "hero-banner-ihs": "url('assets/banner-img/ihs-hero-campus.webp')",
         card: "linear-gradient(to right, transparent 20%, #A91D54 20%)",
         card1: "linear-gradient(172deg,#a91d54 70% , white 30%)",
+        "ihs-gradient1": "linear-gradient(90deg, rgba(0, 0, 0, 0.73) 18.22%, rgba(0, 0, 0, 0.00) 50%)",
+        
       },
       backgroundColor: {
+        "ihs-gradient": "rgba(0, 0, 0, 0.5)", 
         "modal-dark-fade": "rgba(0, 0, 0, 0.4)",
+        // "none": "transparent",
       },
       animation: {
         "spin-slow": "spin 8s linear infinite",
